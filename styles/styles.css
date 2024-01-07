@@ -4,7 +4,7 @@ h1{
     /* background-color: aqua; */
 }
 .cow{
-    background-image: url("/images/cow.jpg");
+    background-image: url("/images/cows.avif");
     height: 100vh;
     background-position: bottom center;
     background-size: cover;
