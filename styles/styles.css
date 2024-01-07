@@ -8,6 +8,7 @@ h1{
     height: 100vh;
     background-position: bottom center;
     background-size: cover;
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 81%, 79% 89%, 50% 100%, 25% 91%, 0 80%, 0% 35%, 0 0)
 }
 .cow h1{
     color: azure;
@@ -32,11 +33,31 @@ h1{
     /* margin-right: auto; */
     /* margin-left: auto; */
     margin: 60px auto;
-    border: 10px solid yellow;
-    background-color: aqua;
+    /* border: 10px solid yellow; */
+    /* background-color: aqua; */
     padding: 60px;
 }
-.article h2{
+#cowtag{
+    width: 80%;
+    margin: 60px auto;
+    /* background-image: linear-gradient(pink, blue); */
+    /* background-image: linear-gradient(pink,blue); */
+    
+}
+.cows{
+    display: flex;
+    /* min-width: 300px; */
+    /* width: 100px; */
+    gap: 20px;
+    /* justify-content: center; */
+    justify-content: space-between;
+
+}
+.cows img{
+    min-width: 300px;
+    /* width: 100px; */
+}
+.article h2, #cowtag h2{
     text-align: center;
     font-size: 48px;
     border-bottom: 2px solid yellow;
@@ -50,4 +71,8 @@ font-size: 21px;
 .article p{
     font-size: 20px;
     line-height: 2em;
+}
+#cowtag, .article{
+    background-image: linear-gradient(pink,blue);
+
 }
