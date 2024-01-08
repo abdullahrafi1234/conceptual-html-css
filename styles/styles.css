@@ -4,11 +4,13 @@ h1{
     /* background-color: aqua; */
 }
 .cow{
-    background-image: url("/images/biriyani.jpeg");
+    background-image: url('../images/cow.jpg');
     height: 100vh;
     background-position: bottom center;
     background-size: cover;
     clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 81%, 79% 89%, 50% 100%, 25% 91%, 0 80%, 0% 35%, 0 0)
+    
+    
 }
 .cow h1{
     color: azure;
